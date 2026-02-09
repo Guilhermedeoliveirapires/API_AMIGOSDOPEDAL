@@ -215,6 +215,7 @@ body {
     height: 100vh;
     min-height: 600px;
     background: var(--primary-color);
+    background-image: url('assets/hero-desktop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1760,6 +1761,12 @@ section {
 
     .nav-menu.active {
         left: 0;
+    }
+
+    .hero {
+        background-image: url('assets/hero-mobile.jpg');
+        background-attachment: scroll;
+        background-position: center center;
     }
 
     .hero-title {
